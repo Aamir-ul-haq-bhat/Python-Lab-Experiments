@@ -1,0 +1,17 @@
+# Write a program to demonstrate type checking of various data types and demostrate the use of following built in functions in python : abs(), min (), round(), isainum() type()
+a = -10
+b = 3.14
+c = "MIETJAMMU123"
+d = [1, 2, 3]
+e = True
+
+print("Type of a:", type(a))
+print("Type of b:", type(b))
+print("Type of c:", type(c))
+print("Type of d:", type(d))
+print("Type of e:", type(e))
+print("Absolute value of",a, "is", abs(a))
+print("Minimum value in list:", min(d))
+print("Rounded value of",b, "is", round(b, 2))
+print("Is",c, "alphanumeric?", c.isalnum())
+
